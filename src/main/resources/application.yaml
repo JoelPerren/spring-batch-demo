@@ -1,0 +1,17 @@
+spring:
+    datasource:
+        jdbc-url: jdbc:postgresql://localhost:5432/spring-batch
+        username: postgres
+        password: Password1#
+    batch:
+        initialize-schema: always
+        job:
+            enabled: false
+        datasource:
+            jdbc-url: jdbc:postgresql://localhost:5432/job-repository
+            username: postgres
+            password: Password1#
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.spatial.dialect.postgis.PostgisDialect
