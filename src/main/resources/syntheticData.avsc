@@ -1,0 +1,12 @@
+{
+	"name": "syntheticData",
+	"type": "record",
+	"fields": [
+		{"name": "id", "type": "string"},
+		{"name": "geometry", "type": "string"},
+		{"name": "someBoolean", "type": "string"},
+		{"name": "someDate", "type": "string"},
+		{"name": "someNumber", "type": "int"},
+		{"name": "changeType", "type": "string"}
+	]
+}
